@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software Development</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+<header class="header container_1">
+    <a href="index.html" class="logo"> < /Soft Dev ></a>
+</header>
+<main class="main">
+    <div class="main__full container_1">
+        <div class="main__left">
+            <div class="main__img">
+                <img src="../img/roman.jpg" alt="imagePerson">
+            </div>
+            <div class="main__skills">
+                <h2>Skills</h2>
+                <p>Programming</p>
+                <progress max="100" value="25"></progress>
+                <p>Web-Design</p>
+                <progress max="100" value="25"></progress>
+                <p>Communicativeness</p>
+                <progress max="100" value="25"></progress>
+                <p>Learnability</p>
+                <progress max="100" value="25"></progress>
+            </div>
+        </div>
+        <div class="d-flex jc main__pages_reverse container_1">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active main__nav" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true"><span class="triangle"></span>Bibliography
+                </button>
+                <button class="nav-link main__nav" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">My works
+                </button>
+                <button class="nav-link main__nav" id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">Contacts
+                </button>
+            </div>
+            <div class="tab-content main__info margin-right" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                     aria-labelledby="v-pills-home-tab">Mauris hendrerit, tortor in maximus sodales, enim elit
+                    ultricies ex, non interdum risus neque nec metus. In purus nisi, cursus euismod imperdiet non,
+                    consequat quis felis. Nam dictum magna in massa consectetur, eget dapibus metus congue.
+                    Curabitur metus mi, volutpat eu pretium eget, aliquam at eros. Sed sed sodales est. Fusce sed
+                    lectus metus. Nam in erat tortor. Nam posuere risus dolor, at semper velit tincidunt non. Cras
+                    fermentum malesuada magna, vel interdum lorem iaculis aliquet. Suspendisse imperdiet egestas
+                    semper. Morbi mauris urna, molestie eu magna ut, tempus convallis nulla. Maecenas at venenatis
+                    ex. Vivamus ac tellus euismod, faucibus leo et, vestibulum lacus. Aliquam erat volutpat.
+                    Donec cursus nisi a velit imperdiet hendrerit. Cras porta aliquet quam eget eleifend. Sed ac
+                    blandit mauris. Quisque sed consequat purus, eget laoreet enim. Morbi nec erat ullamcorper,
+                    elementum odio id, volutpat quam. Fusce pulvinar porta maximus. Praesent euismod semper aliquet.
+                    Integer ac dolor nisl. Donec eget condimentum risus, et auctor nunc. Aliquam erat elit, ornare
+                    vitae erat quis, semper tristique lorem. Sed at erat eros. Phasellus id nibh ultricies, dapibus
+                    elit congue, dictum tortor. Curabitur et enim scelerisque risus pellentesque euismod. Vestibulum
+                    hendrerit nisi quis ligula finibus, eget viverra enim convallis.
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                     aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet.
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                     aria-labelledby="v-pills-messages-tab">
+                    <div class="contacts">
+                        <div class="contacts__works">
+                            <div class="contacts__h2">Working</div>
+                            <a href="#">
+                                <img src="../img/facebook.png" alt="imgFacebook">
+                            </a>
+                            <a href="#">
+                                <img src="../img/google-plus.png" alt="imgGoogle">
+                            </a>
+                            <a href="#">
+                                <img src="../img/linkedin.png" alt="imgLinkedin">
+                            </a>
+                        </div>
+                        <div class="contacts__blog">
+                            <div class="contacts__h2">Blog</div>
+                            <a href="#">
+                                <img src="../img/inst.png" alt="imgInstagram">
+                            </a>
+                            <a href="#">
+                                <img src="../img/twitter.png" alt="imgTwitter">
+                            </a>
+                        </div>
+                        <div class="contacts__creative">
+                            <div class="contacts__h2">My creative works</div>
+                            <a href="#">
+                                <img src="../img/behance.png" alt="imgBehance">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+</html>

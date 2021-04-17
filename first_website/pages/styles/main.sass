@@ -1,0 +1,122 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background: url(../../img/backgound_page.jpg) no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+.container_1
+  width: 1142px
+  margin: 0 auto
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-top: 28px
+  margin-bottom: 53px
+
+.logo
+  font-family: 'Merriweather', serif
+  font-style: normal
+  font-weight: normal
+  letter-spacing: 0.015em
+  color: #FFFFFF
+  font-size: 34px
+  line-height: 43px
+  text-decoration: none
+
+.main
+  &__full
+    display: flex
+    justify-content: space-between
+
+  &__left
+    display: flex
+    flex-direction: column
+
+  &__img
+    width: 190px
+    height: 250px
+    margin-bottom: 29px
+
+  &__skills
+    display: flex
+    flex-direction: column
+    width: 190px
+
+  &__info
+    font-family: 'Roboto', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+    letter-spacing: 0.015em
+    color: #FFFFFF
+    width: 624px
+
+  &__pages
+    &_reverse
+      margin-left: 104px
+      flex-direction: row-reverse
+
+  &__nav
+    font-family: 'Merriweather', serif
+    font-style: normal
+    font-weight: 100
+    font-size: 24px
+    line-height: 30px
+    letter-spacing: 0.015em
+    color: #FFFFFF
+    margin-bottom: 23px
+    display: flex
+    align-items: center
+
+.jc
+  justify-content: space-between
+
+.margin-right
+  margin-right: 66px
+
+.contacts
+  display: flex
+  flex-direction: column
+  &__h2
+    margin-bottom: 20px
+    border-bottom: solid #FFFFFF 1px
+    font-family: 'Merriweather', serif
+    font-style: normal
+    font-weight: normal
+    font-size: 24px
+    line-height: 30px
+    letter-spacing: 0.015em
+    color: #FFFFFF
+  &__works
+    margin-bottom: 60px
+  &__blog
+    margin-bottom: 60px
+
+.contacts a
+    text-decoration: none
+    margin-right: 20px
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+  background-color: inherit!important
+  color: #4176FA!important
+
+.triangle, .nav-pills .show>.nav-link
+  display: block
+
+.triangle
+  display: none
+  width: 0
+  height: 0
+  border-style: solid
+  border-width: 7.5px 0 7.5px 13.0px
+  border-color: transparent transparent transparent #4176FA
+  margin-right: 4px
