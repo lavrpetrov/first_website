@@ -4,7 +4,7 @@
   box-sizing: border-box
 
 body
-  background: url(../../img/backgound_page.jpg) no-repeat center center fixed
+  background: url(../../img/background_page.svg) no-repeat center center fixed
   -webkit-background-size: cover
   -moz-background-size: cover
   -o-background-size: cover
@@ -80,8 +80,15 @@ body
 .jc
   justify-content: space-between
 
-.margin-right
-  margin-right: 66px
+.d-flex .me-3
+  margin-right: 0!important
+
+.margin-left
+  margin-left: 66px
+  width: 177px
+
+//.margin-right
+//  margin-right: 66px
 
 .contacts
   display: flex
@@ -108,8 +115,9 @@ body
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link
   background-color: inherit!important
   color: #4176FA!important
+  display: inherit
 
-.triangle, .nav-pills .show>.nav-link
+.nav-pills .nav-link.active .triangle-active
   display: block
 
 .triangle
@@ -120,3 +128,29 @@ body
   border-width: 7.5px 0 7.5px 13.0px
   border-color: transparent transparent transparent #4176FA
   margin-right: 4px
+
+.main__skills h2
+  text-align: center
+  margin-bottom: 11px
+  font-family: 'Merriweather', serif
+  font-style: normal
+  font-weight: normal
+  font-size: 24px
+  line-height: 30px
+  letter-spacing: 0.015em
+  color: #FFFFFF
+
+.main__skills p
+  margin-bottom: 0
+  font-family: 'Roboto', sans-serif
+  font-style: normal
+  font-weight: normal
+  font-size: 12px
+  line-height: 14px
+  letter-spacing: 0.015em
+  color: #FFFFFF
+
+.skills__mb
+  margin-bottom: 25px
+
+
