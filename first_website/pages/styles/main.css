@@ -37,10 +37,12 @@ body {
 .main__left {
   display: flex;
   flex-direction: column; }
-.main__img {
+.main__imgBlock {
   width: 190px;
   height: 250px;
   margin-bottom: 29px; }
+  .main__imgBlock_img {
+    width: 100%; }
 .main__skills {
   display: flex;
   flex-direction: column;
@@ -53,7 +55,8 @@ body {
   line-height: 21px;
   letter-spacing: 0.015em;
   color: #FFFFFF;
-  width: 624px; }
+  width: 624px;
+  margin-bottom: 50px; }
 .main__pages_reverse {
   margin-left: 104px;
   flex-direction: row-reverse; }
@@ -96,6 +99,9 @@ body {
     margin-bottom: 60px; }
   .contacts__blog {
     margin-bottom: 60px; }
+  .contacts__logo {
+    width: 57px;
+    height: 57px; }
 
 .contacts a {
   text-decoration: none;
