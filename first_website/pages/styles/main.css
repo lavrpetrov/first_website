@@ -21,6 +21,9 @@ body {
   margin-top: 28px;
   margin-bottom: 53px; }
 
+.header a:hover {
+  color: #FFFFFF !important; }
+
 .logo {
   font-family: "Merriweather", serif;
   font-style: normal;
